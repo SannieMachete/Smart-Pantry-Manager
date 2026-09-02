@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ============ TYPE SCALE ============ -->
+
+    <style name="TextAppearance.Pantry.Display" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/fraunces_bold</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="TextAppearance.Pantry.ScreenTitle" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/fraunces_semibold</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textSize">23sp</item>
+    </style>
+
+    <style name="TextAppearance.Pantry.SectionTitle" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/fraunces_semibold</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextAppearance.Pantry.CardTitle" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/fraunces_semibold</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="TextAppearance.Pantry.Body" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/work_sans_regular</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TextAppearance.Pantry.BodyMuted" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/work_sans_regular</item>
+        <item name="android:textColor">@color/ink_muted</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.Pantry.Label" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/work_sans_medium</item>
+        <item name="android:textColor">@color/ink_muted</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="TextAppearance.Pantry.EmptyHeadline" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/fraunces_semibold</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <!-- ============ BUTTONS ============ -->
+
+    <style name="Widget.Pantry.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="android:fontFamily">@font/work_sans_semibold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="cornerRadius">@dimen/radius_pill</item>
+        <item name="backgroundTint">@color/herb</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+
+    <style name="Widget.Pantry.Button.Danger.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:fontFamily">@font/work_sans_semibold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="cornerRadius">@dimen/radius_pill</item>
+        <item name="strokeColor">@color/rust</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="android:textColor">@color/rust</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+
+    <!-- ============ TEXT FIELDS ============ -->
+
+    <style name="Widget.Pantry.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">@dimen/radius_field</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/radius_field</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/radius_field</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/radius_field</item>
+        <item name="boxStrokeColor">@color/herb</item>
+        <item name="hintTextColor">@color/herb</item>
+        <item name="android:textColorHint">@color/ink_muted</item>
+    </style>
+
+</resources>
