@@ -26,6 +26,13 @@
     <string name="empty_suggestions">No recipes match your pantry yet - add more ingredients.</string>
     <string name="empty_almost_there">Nothing is close yet - add a few more ingredients.</string>
 
+    <string name="empty_pantry_headline">Nothing in your pantry yet</string>
+    <string name="empty_pantry_sub">Tap the + button below to add your first ingredient.</string>
+    <string name="empty_suggestions_headline">No matches yet</string>
+    <string name="empty_suggestions_sub">Add a few more ingredients and recipes will start showing up here.</string>
+    <string name="empty_almost_there_headline">Nothing close yet</string>
+    <string name="empty_almost_there_sub">Recipes missing just one ingredient will show up here.</string>
+
     <string name="label_suggested_recipes">Suggested Recipes</string>
     <string name="label_almost_there">Almost There (missing 1 ingredient)</string>
 
