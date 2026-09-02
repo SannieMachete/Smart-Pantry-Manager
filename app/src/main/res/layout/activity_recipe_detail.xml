@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/linen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tv_detail_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Pantry.Display"
+            tools:text="Tomato Pasta" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/label_ingredients"
+            android:textAppearance="@style/TextAppearance.Pantry.SectionTitle"
+            android:textColor="@color/herb" />
+
+        <TextView
+            android:id="@+id/tv_detail_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textAppearance="@style/TextAppearance.Pantry.Body"
+            android:lineSpacingExtra="4dp"
+            tools:text="- 3 tomato\n- 200 g pasta" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/label_instructions"
+            android:textAppearance="@style/TextAppearance.Pantry.SectionTitle"
+            android:textColor="@color/herb" />
+
+        <TextView
+            android:id="@+id/tv_detail_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textAppearance="@style/TextAppearance.Pantry.Body"
+            android:lineSpacingExtra="4dp"
+            tools:text="1. Boil pasta.\n2. Cook sauce." />
+
+    </LinearLayout>
+</ScrollView>
