@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/linen"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/nav_settings"
+        android:textAppearance="@style/TextAppearance.Pantry.ScreenTitle" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_expiring_alerts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/work_sans_regular"
+        android:textColor="@color/ink"
+        android:text="@string/settings_expiring_alerts"
+        app:thumbTint="@color/herb"
+        app:trackTint="@color/herb_light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/settings_units_preference"
+        android:textAppearance="@style/TextAppearance.Pantry.SectionTitle" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_units"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_metric"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:fontFamily="@font/work_sans_regular"
+            android:textColor="@color/ink"
+            android:buttonTint="@color/herb"
+            android:text="@string/settings_units_metric" />
+
+        <RadioButton
+            android:id="@+id/radio_imperial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/work_sans_regular"
+            android:textColor="@color/ink"
+            android:buttonTint="@color/herb"
+            android:text="@string/settings_units_imperial" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_save_settings"
+        style="@style/Widget.Pantry.Button.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/btn_save" />
+
+</LinearLayout>
