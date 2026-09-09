@@ -31,9 +31,11 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeView
     private final OnRecipeClickListener listener;
     private final boolean showMissingSubtitle;
 
-    
-    @param showMissingSubtitle 
-    
+    /**
+     * @param showMissingSubtitle true for the "Almost There" list (shows the
+     *                            missing ingredient), false for the strict
+     *                            suggestions list (shows a success message).
+     */
     public RecipeAdapter(OnRecipeClickListener listener, boolean showMissingSubtitle) {
         this.listener = listener;
         this.showMissingSubtitle = showMissingSubtitle;
